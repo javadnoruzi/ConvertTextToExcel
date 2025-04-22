@@ -45,7 +45,7 @@
             // 
             // txt_OutPutPath
             // 
-            txt_OutPutPath.Location = new Point(115, 55);
+            txt_OutPutPath.Location = new Point(128, 53);
             txt_OutPutPath.Name = "txt_OutPutPath";
             txt_OutPutPath.Size = new Size(733, 30);
             txt_OutPutPath.TabIndex = 0;
@@ -53,7 +53,7 @@
             // lbl_Path
             // 
             lbl_Path.AutoSize = true;
-            lbl_Path.Location = new Point(-6, 55);
+            lbl_Path.Location = new Point(18, 56);
             lbl_Path.Name = "lbl_Path";
             lbl_Path.Size = new Size(104, 23);
             lbl_Path.TabIndex = 1;
@@ -62,16 +62,16 @@
             // lbl_TextMain
             // 
             lbl_TextMain.AutoSize = true;
-            lbl_TextMain.Location = new Point(13, 22);
+            lbl_TextMain.Location = new Point(32, 23);
             lbl_TextMain.Name = "lbl_TextMain";
-            lbl_TextMain.Size = new Size(85, 23);
+            lbl_TextMain.Size = new Size(90, 23);
             lbl_TextMain.TabIndex = 2;
-            lbl_TextMain.Text = "InputPath";
+            lbl_TextMain.Text = "Input Path";
             // 
             // lbl_Spliter
             // 
             lbl_Spliter.AutoSize = true;
-            lbl_Spliter.Location = new Point(40, 110);
+            lbl_Spliter.Location = new Point(64, 107);
             lbl_Spliter.Name = "lbl_Spliter";
             lbl_Spliter.Size = new Size(58, 23);
             lbl_Spliter.TabIndex = 4;
@@ -79,7 +79,7 @@
             // 
             // txt_Spliter
             // 
-            txt_Spliter.Location = new Point(115, 105);
+            txt_Spliter.Location = new Point(128, 103);
             txt_Spliter.Name = "txt_Spliter";
             txt_Spliter.Size = new Size(95, 30);
             txt_Spliter.TabIndex = 5;
@@ -88,7 +88,7 @@
             // btn_Convert
             // 
             btn_Convert.BackColor = SystemColors.ActiveCaption;
-            btn_Convert.Location = new Point(842, 99);
+            btn_Convert.Location = new Point(855, 97);
             btn_Convert.Name = "btn_Convert";
             btn_Convert.Size = new Size(155, 42);
             btn_Convert.TabIndex = 6;
@@ -99,7 +99,7 @@
             // lbl_Formats
             // 
             lbl_Formats.AutoSize = true;
-            lbl_Formats.Location = new Point(216, 109);
+            lbl_Formats.Location = new Point(229, 107);
             lbl_Formats.Name = "lbl_Formats";
             lbl_Formats.Size = new Size(64, 23);
             lbl_Formats.TabIndex = 7;
@@ -108,14 +108,14 @@
             // com_Formats
             // 
             com_Formats.FormattingEnabled = true;
-            com_Formats.Location = new Point(281, 107);
+            com_Formats.Location = new Point(294, 105);
             com_Formats.Name = "com_Formats";
             com_Formats.Size = new Size(550, 31);
             com_Formats.TabIndex = 8;
             // 
             // txt_inputText
             // 
-            txt_inputText.Location = new Point(115, 19);
+            txt_inputText.Location = new Point(128, 17);
             txt_inputText.Name = "txt_inputText";
             txt_inputText.Size = new Size(733, 30);
             txt_inputText.TabIndex = 0;
@@ -126,7 +126,7 @@
             // 
             // btn_SelectFile
             // 
-            btn_SelectFile.Location = new Point(854, 19);
+            btn_SelectFile.Location = new Point(867, 17);
             btn_SelectFile.Name = "btn_SelectFile";
             btn_SelectFile.Size = new Size(126, 34);
             btn_SelectFile.TabIndex = 9;
@@ -136,7 +136,7 @@
             // 
             // btn_SelectPath
             // 
-            btn_SelectPath.Location = new Point(854, 55);
+            btn_SelectPath.Location = new Point(867, 53);
             btn_SelectPath.Name = "btn_SelectPath";
             btn_SelectPath.Size = new Size(126, 34);
             btn_SelectPath.TabIndex = 9;
@@ -148,7 +148,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1003, 165);
+            ClientSize = new Size(1014, 165);
             Controls.Add(btn_SelectPath);
             Controls.Add(btn_SelectFile);
             Controls.Add(com_Formats);
